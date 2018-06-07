@@ -10,6 +10,7 @@
         <Grid.RowDefinitions>
             <RowDefinition/>
             <RowDefinition Height="100"/>
+            <RowDefinition Height="20"/>
         </Grid.RowDefinitions>
         <ListBox x:Name="ListMessages"></ListBox>
         <Grid Grid.Row="1">
@@ -20,5 +21,6 @@
             <TextBox x:Name="MyText"></TextBox>
             <Button Grid.Column="1" Click="Button_Click">Send</Button>
         </Grid>
+        <ProgressBar x:Name="bar" Grid.Row="2" Minimum="0" Maximum="50"></ProgressBar>
     </Grid>
 </Window>
