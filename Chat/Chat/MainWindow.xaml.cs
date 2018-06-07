@@ -39,7 +39,7 @@ namespace Chat
                 {
                     for(int i=0;i<50;i++)
                     {
-                        Thread.Sleep(100);
+                        Thread.Sleep(10);
                         this.Dispatcher.Invoke(() =>
                         {
                             bar.Value++;
